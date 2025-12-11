@@ -13,6 +13,12 @@ export default defineConfig({
       exclude: [
         'node_modules/',
         'src/test/',
+        'coverage/',
+        '.eslintrc.cjs',
+        'vite.config.js',
+        'vitest.config.js',
+        '.github/',
+        '.vscode/',
       ]
     }
   }
